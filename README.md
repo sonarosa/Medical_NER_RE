@@ -54,18 +54,3 @@ The goal is to enable precise biomedical information extraction to support downs
 - Scikit-learn (evaluation utilities)  
 - Optional: Docker for reproducible environments
 
----
-
-## Quick Start / Installation
-```bash
-# clone the repo
-git clone https://github.com/<your-username>/medical-ner-causal-relation.git
-cd medical-ner-causal-relation
-
-# create virtualenv (recommended)
-python -m venv venv
-source venv/bin/activate   # Linux / macOS
-# .\venv\Scripts\activate  # Windows
-
-# install dependencies
-pip install -r requirements.txt
